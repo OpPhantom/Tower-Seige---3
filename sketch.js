@@ -59,8 +59,8 @@ function draw() {
   Engine.update(engine);
 
 
- // textSize(20);
-  //text("Score:" + score, 20,20)
+ textSize(20);
+ text("Score:" + score, 20,20)
 
   ground.display();
   ground2.display();
